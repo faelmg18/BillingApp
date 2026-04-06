@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">BillingApp</string>
+
+    <!-- Hero Banner -->
+    <string name="hero_title_premium">Você é Premium!</string>
+    <string name="hero_title_default">Desbloqueie o Premium</string>
+    <string name="hero_subtitle_premium">Obrigado pelo seu apoio. Aproveite todos os recursos.</string>
+    <string name="hero_subtitle_default">Acesso completo a todos os recursos, para sempre.</string>
+
+    <!-- Product Card -->
+    <string name="btn_already_purchased">Já adquirido</string>
+    <string name="btn_buy_for_price">Comprar por %s</string>
+
+    <!-- Product Screen -->
+    <string name="benefit_unlimited_access">Acesso ilimitado a todos os recursos</string>
+    <string name="benefit_no_ads">Sem anúncios</string>
+    <string name="benefit_priority_support">Suporte prioritário</string>
+    <string name="benefit_free_updates">Atualizações gratuitas para sempre</string>
+    <string name="label_dismiss">Dispensar</string>
+    <string name="product_fallback_title">Premium Vitalício</string>
+    <string name="product_fallback_description">Desbloqueie todas as funcionalidades para sempre. Sem assinaturas.</string>
+    <string name="product_fallback_price">R$ 29,90</string>
+    <string name="btn_restore_purchases">Restaurar Compras</string>
+    <string name="section_purchase_history">Histórico de Compras</string>
+    <string name="purchase_history_subtitle">%d transação(ões)</string>
+
+    <!-- Purchase History -->
+    <string name="purchase_order_label">Pedido: %s</string>
+    <string name="purchase_status_confirmed">Confirmado</string>
+    <string name="purchase_status_pending">Pendente</string>
+    <string name="purchase_history_empty">Nenhuma compra encontrada</string>
+
+    <!-- Connection Status -->
+    <string name="connection_connected">Google Play conectado</string>
+    <string name="connection_connecting">Conectando\u2026</string>
+    <string name="connection_disconnected">Desconectado</string>
+    <string name="connection_closed">Conexão encerrada</string>
+
+    <!-- ViewModel events (via StringResourceProvider) -->
+    <string name="event_product_unavailable">Produto indisponível. Verifique sua conexão e tente novamente.</string>
+    <string name="event_purchases_restored">Compras restauradas</string>
+    <string name="event_purchase_success">Compra realizada com sucesso!</string>
+    <string name="event_purchase_error">Erro na compra: %s</string>
+    <string name="event_purchase_cancelled">Compra cancelada</string>
+    <string name="event_purchase_pending">Compra pendente. Aguarde a confirmação.</string>
+</resources>

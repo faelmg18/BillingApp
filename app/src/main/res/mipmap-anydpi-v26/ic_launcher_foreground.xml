@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Card body -->
+    <path
+        android:fillColor="#5A28B4"
+        android:pathData="
+            M26,38 Q26,33 31,33 L77,33 Q82,33 82,38
+            L82,62 Q82,67 77,67 L31,67 Q26,67 26,62 Z"/>
+
+    <!-- Card stripe -->
+    <path
+        android:fillColor="#FFC400"
+        android:pathData="M26,42 L82,42 L82,47 L26,47 Z"/>
+
+    <!-- Card chip -->
+    <path
+        android:fillColor="#FFC400"
+        android:pathData="
+            M33,50 Q33,48 35,48 L43,48 Q45,48 45,50
+            L45,58 Q45,60 43,60 L35,60 Q33,60 33,58 Z"/>
+
+    <!-- Star (premium badge) -->
+    <path
+        android:fillColor="#FFC400"
+        android:pathData="
+            M72,58
+            L74.5,65 L81.5,65 L76,69.5 L78,76.5
+            L72,72.5 L66,76.5 L68,69.5 L62.5,65
+            L69.5,65 Z"/>
+
+</vector>
