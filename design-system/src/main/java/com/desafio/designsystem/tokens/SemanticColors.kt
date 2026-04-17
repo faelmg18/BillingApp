@@ -57,10 +57,10 @@ val LightBillingColors = BillingColors(
     primaryContainer = ColorTokens.Purple100,
     onPrimaryContainer = ColorTokens.Purple900,
 
-    premium = ColorTokens.Gold500,
-    premiumLight = ColorTokens.Gold400,
-    premiumDark = ColorTokens.Gold700,
-    onPremium = ColorTokens.Neutral900,
+    premium = ColorTokens.Blue400,
+    premiumLight = ColorTokens.Violet400,
+    premiumDark = ColorTokens.Violet700,
+    onPremium = ColorTokens.White,
 
     success = ColorTokens.Green500,
 
