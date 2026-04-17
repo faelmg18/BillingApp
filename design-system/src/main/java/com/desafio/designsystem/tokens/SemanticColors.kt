@@ -51,16 +51,16 @@ data class BillingColors(
 
 val LightBillingColors = BillingColors(
     primary = ColorTokens.Purple500,
-    primaryLight = ColorTokens.Purple400,
-    primaryDark = ColorTokens.Purple700,
+    primaryLight = ColorTokens.Purple400,   // fix: era Green400 — inconsistente com primary = Purple500
+    primaryDark = ColorTokens.Purple700,    // fix: era Green700 — inconsistente com primary = Purple500
     onPrimary = ColorTokens.White,
-    primaryContainer = ColorTokens.Purple100,
-    onPrimaryContainer = ColorTokens.Purple900,
+    primaryContainer = ColorTokens.Purple100,   // fix: era Green100 — inconsistente com primary = Purple500
+    onPrimaryContainer = ColorTokens.Purple900, // fix: era Green900 — inconsistente com primary = Purple500
 
-    premium = ColorTokens.Gold500,
-    premiumLight = ColorTokens.Gold400,
-    premiumDark = ColorTokens.Gold700,
-    onPremium = ColorTokens.Neutral900,
+    premium = ColorTokens.Blue400,
+    premiumLight = ColorTokens.Violet400,
+    premiumDark = ColorTokens.Violet700,
+    onPremium = ColorTokens.White,
 
     success = ColorTokens.Green500,
 
