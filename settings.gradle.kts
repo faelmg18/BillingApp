@@ -23,3 +23,4 @@ rootProject.name = "BillingApp"
 include(":app")
 include(":billing-module")
 include(":design-system")
+include(":feature:instagram_test")

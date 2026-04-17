@@ -13,10 +13,12 @@ import com.desafio.designsystem.tokens.BillingSpacing
 import com.desafio.designsystem.tokens.BillingTypography
 import com.desafio.designsystem.tokens.ColorTokens
 import com.desafio.designsystem.tokens.LightBillingColors
+import com.desafio.designsystem.tokens.LightInstagramColors
 import com.desafio.designsystem.tokens.LocalBillingColors
 import com.desafio.designsystem.tokens.LocalBillingElevation
 import com.desafio.designsystem.tokens.LocalBillingShapes
 import com.desafio.designsystem.tokens.LocalBillingSpacing
+import com.desafio.designsystem.tokens.LocalInstagramColors
 
 private val BillingColorScheme = lightColorScheme(
     primary = ColorTokens.Purple500,
@@ -51,6 +53,7 @@ fun BillingTheme(content: @Composable () -> Unit) {
         LocalBillingSpacing provides BillingSpacing(),
         LocalBillingShapes provides BillingShapes(),
         LocalBillingElevation provides BillingElevation(),
+        LocalInstagramColors provides LightInstagramColors,
     ) {
         MaterialTheme(
             colorScheme = BillingColorScheme,
@@ -75,4 +78,7 @@ object BillingThemeTokens {
 
     val typography
         @Composable @ReadOnlyComposable get() = MaterialTheme.typography
+
+    val instagramColors
+        @Composable @ReadOnlyComposable get() = LocalInstagramColors.current
 }
